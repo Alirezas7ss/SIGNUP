@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: center ;
+  background-color: aliceblue;
+  min-height: 100vh ;
+  align-items: center ;
+}
+.formContainer {
+  border: 1px solid silver;
+  width: fit-content;
+  padding: 50px ;
+  margin: 50px ;
+  border-radius: 10px ;
+  height: fit-content;
+  background-color: #ffff;
+}
+.header {
+  text-align: left;
+  margin-bottom: 40px ;
+  font-size: 1.8rem ;
+  color: cornflowerblue;
+}
+.formField {
+  display: flex ;
+  flex-direction: column ;
+  margin-bottom: 10px ;
+  height: 75px ;
+}
+
+.formField label {
+   text-align: left;
+   margin-bottom: 5px;
+   color: rgb(85, 85, 85);
+   font-size: 0.9rem ;
+}
+
+.formField span {
+  height: 10px;
+  text-align: left;
+  margin-top: 5px ;
+  width: fit-content ;
+  font-size: 0.7rem;
+  color: red;
+  padding: 2px 3px;
+  line-height: 10px ;
+  border-radius: 3px ;
+  background-color: aqua;
+}
+
+.formInput {
+   width: 300px;
+   height: 30px;
+   border-radius: 5px;
+   padding: 0px 10px;
+   border: 1px solid silver;
+   transition: all 0.2s ease-in;
+}
+
+.uncompleted {
+  width: 300px;
+   height: 30px;
+   border-radius: 5px;
+   padding: 0px 10px;
+   border: 1px solid rgb(240, 6, 6);
+   transition: all 0.2s ease-in;
+}
+
+.uncompleted:focus ,
+.uncompleted:focus {
+  outline: none;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid blue ;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: space-around;
+
+}
+.formButtons a {
+  color: blue;
+  text-decoration: none ;
+  font-weight: bold;
+  padding: 10px 15px;
+  
+}
+.formButtons a:hover {
+  background: rgba(145, 145, 205, 0.604);
+  border-radius: 5px;
+
+}
+.formButtons button {
+  color: blue;
+  font-weight: bold;
+  background: rgba(91, 115, 221, 0.675);
+  border: none;
+  border-radius: 5px;
+}
+.formButtons button:hover {
+  color: rgb(9, 9, 171);
+   
+}
+.checkBoxContainer {
+  display: flex;
+  font-size: 0.85rem;
+  flex-direction: row !important;
+  align-items: center;
+  height:  20px !important;
+  text-align: center;
+}
+
+.formField:nth-child(6) label {
+  color: rgb(103, 103, 240);
+}
